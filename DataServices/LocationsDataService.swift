@@ -12,6 +12,155 @@ class LocationsDataService {
     
     static let locations: [Location] = [
         Location(
+            name: "Pu'ukohola Heiau",
+            cityName: "Kawaihae",
+            coordinates: CLLocationCoordinate2D(latitude: 20.025705913597783, longitude: -155.82158401652694),
+            overview: """
+                Pu'ukohola Heiau National Historic Site is located on the northwestern coast of the Big Island of Hawaii, near the town of Kawaihae. This well-preserved ancient Hawaiian temple sits atop a hill overlooking the Pacific Ocean, about 3 miles south of Kawaihae Harbor. Built between 1790-1791 by King Kamehameha I, Pu'ukohola Heiau is a massive stone structure measuring 224 by 100 feet with walls up to 20 feet high. The heiau dominates the landscape with its terraced platform constructed of water-worn lava rocks. 
+                
+                Visitors to the site can explore the grounds via a self-guided walking tour, which includes informative exhibits about the heiau's history and cultural significance. The park also offers opportunities for wildlife viewing, including humpback whales during winter months, and hosts cultural demonstrations and events throughout the year. While visitors cannot enter the heiau itself, they can view it from designated areas and learn about its crucial role in the unification of the Hawaiian Islands under Kamehameha I.
+                """,
+            history: """
+                Pu'ukohola Heiau, meaning "Temple on the Hill of the Whale," holds a pivotal place in Hawaiian history. Built between 1790 and 1791 by King Kamehameha I, this massive stone temple was constructed to fulfill a prophecy that would allow Kamehameha to unify all the Hawaiian islands under his rule. The heiau's construction was a monumental undertaking, with thousands of men forming a human chain nearly 25 miles long to transport water-worn lava rocks from Pololu Valley. The completion of Pu'ukohola Heiau marked a significant turning point in Hawaiian history, as it set the stage for Kamehameha's conquest and unification of the islands. By 1810, Kamehameha had become the first king of a unified Hawaii, fulfilling the prophecy associated with the heiau.
+
+                Today, Pu'ukohola Heiau continues to hold immense cultural significance for Native Hawaiians and serves as a powerful symbol of unification and lasting peace. The site is now part of the Pu'ukohola Heiau National Historic Site, preserving this important piece of Hawaiian heritage. Cultural events still take place at the site, most notably the annual Ho'oku'ikahi i Pu'ukohola Establishment Day Hawaiian Cultural Festival, which celebrates the park's anniversary. This festival, typically held in August, features traditional Hawaiian ceremonies, arts and crafts workshops, and cultural demonstrations. The event not only commemorates the site's history but also serves as a platform for cultural preservation, education, and the continuation of Hawaiian traditions. Through these ongoing activities, Pu'ukohola Heiau remains a living connection to Hawaii's past and a center for the perpetuation of Hawaiian culture.
+                """,
+            wildlifePlant: """
+                One native plant found at Pu'ukohola Heiau National Historic Site is the pololei (Ophioglossum polyphyllum), a tiny seasonal fern described as the rarest native plant in the park. This small, inconspicuous fern is part of the adder's-tongue family and is known for its unique reproductive structure. While not explicitly stated as endangered in the search results, its rarity in the park suggests it may face conservation challenges. The pololei, like many native Hawaiian plants, likely held cultural significance for Native Hawaiians, potentially being used in traditional medicine or rituals. Its presence in the park, despite the arid conditions, demonstrates the resilience and adaptability of native Hawaiian flora and highlights the importance of preserving these unique ecosystems.
+                """,
+            wildlifeAnimal: """
+                A notable native animal found at Pu'ukohola Heiau is the blacktip reef shark (Carcharhinus melanopterus), which can often be seen navigating the shallows of Pelekane Bay near the park. While not endangered, these sharks are an important part of the local marine ecosystem. In Hawaiian culture, sharks hold significant spiritual importance and are often considered 'aumakua, or family guardian spirits. According to local lore, the submerged ruins of Hale o Kapuni, a temple believed to be dedicated to shark gods, lie just offshore from Pu'ukohola Heiau. Hawaiian tradition tells of named sharks that were believed to protect the families who fed them. One such legend mentions Uukanipo, two great sharks who were twin brothers. It was said that when the king wished to see them, their keeper would hang two bowls of 'awa (kava) from a forked stick to attract them. The continued presence of blacktip reef sharks in the area serves as a living connection to these ancient beliefs and traditions.
+                """,
+            behavior: """
+                Remember, it is kapu (strictly forbidden) to enter or climb onto the heiau since it is a highly sacred site.
+                """,
+            behaviorCulture: """
+                • Stay on designated trails and paths to protect the archaeological site and natural resources.
+
+                • Do not climb on, touch, or remove any rocks or structures on the heiau.
+                
+                • Do not enter areas marked as restricted or off-limits.
+                
+                • Ask permission before taking photographs of any ongoing cultural practices or ceremonies.
+                
+                • If participating in or observing cultural events, follow the instructions of cultural practitioners and park staff.
+                """,
+            behaviorNature: """
+                • Do not remove, disturb, or damage any artifacts, rocks, plants, or wildlife.
+                """,
+            behaviorSafety: """
+                • Wear appropriate clothing and footwear for walking on uneven terrain.
+                
+                • Bring and drink plenty of water, as the area can be hot and dry.
+                
+                • Follow all posted signs and guidelines provided by the National Park Service.
+                """,
+            plantCaption: "The naupaka's unique half blossom",
+            animalCaption: "A sleeping Hawaiian monk seal",
+            plantCaptionLink: "https://www.flickr.com/photos/47108884@N07/14678080450",
+            animalCaptionLink: "https://www.flickr.com/photos/gaiaguide/14059231841",
+            plantCaptionLinkLabel: "Ton Rulkens",
+            animalCaptionLinkLabel: "Geoff Shuetrim",
+            imageNames: [
+                "Pu'ukohola_2",
+                "Pu'ukohola_6",
+                "Pu'ukohola_8",
+                "Pu'ukohola_22",
+                "Pu'ukohola_54",
+                "Pu'ukohola_53",
+                "Pu'ukohola_25",
+                "Pu'ukohola_38",
+                "Pu'ukohola_49",
+                "Pu'ukohola_52",
+                "Pu'ukohola_36",
+                "Pu'ukohola_12",
+            ],
+            events: [
+                "Ho`oku`ikahi Establishment Day Hawaiian Cultural Festival",
+                "Self-guided Tour",
+            ],
+            eventDescription: [
+                "This annual event celebrates the park's anniversary and showcases traditional Hawaiian culture through various activities, demonstrations, and performances. The festival features workshops on traditional Hawaiian arts and crafts, cultural ceremonies, and educational opportunities for visitors to learn about the site's history and significance.",
+                "Visit the vistors center to learn about Pu'ukoholā Heiau and King Kamehameha I. From lifting spears to watching immersive vidoes, there are many chances to experience Hawaiian history. Then, take a short hike to see the heiau up close.",
+                "",
+            ],
+            eventTime: [
+                "August of Each Year",
+                "Daily From 7:30 a.m. to 5:00 p.m.",
+            ]),
+        Location(
+            name: "Hale O Lono Fishpond",
+            cityName: "Hilo",
+            coordinates: CLLocationCoordinate2D(latitude: 19.73389, longitude: -155.03061),
+            overview: """
+                Hale O Lono Fishpond is a traditional Hawaiian fishpond located on the east side of Hawaiʻi Island, near Hilo. This 3-acre loko iʻa (fishpond) is part of a larger system of ancient aquaculture that was once widespread across the Hawaiian Islands. 
+                
+                The pond is situated in Keaukaha, a region known for its lush, tropical environment due to the abundant rainfall typical of the windward side of the Big Island. The climate here is warm and tropical year-round, with temperatures generally ranging from 75-85°F (23-29°C).
+                
+                The pond has been the focus of extensive restoration efforts led by the Mossman family and the Edith Kanakaʻole Foundation, transforming it from a neglected dumpsite into a vibrant center for cultural and scientific activities. Visitors to Hale O Lono can participate in monthly community workdays, where they help with tasks such as rebuilding rock walls and clearing debris, while learning about traditional Hawaiian practices and the significance of fishponds in local culture.
+                """,
+            history: """
+                Hale O Lono Fishpond, located on the Big Island of Hawaii, has a rich history rooted in ancient Hawaiian aquaculture practices. These fishponds, known as loko iʻa, were integral to Hawaiian society, providing a sustainable food source and playing a significant role in the social and economic structures of the time. Constructed using sophisticated engineering techniques, these fishponds were designed to create brackish water environments ideal for raising fish like ʻamaʻama (mullet) and ʻawa (milkfish). Over time, however, the use of fishponds declined due to various factors, including Western colonization, which introduced new economic models and land use practices that led to the abandonment of traditional fishpond management. In the late 20th century, efforts to restore these cultural sites began, with the Edith Kanakaʻole Foundation taking responsibility for Hale O Lono Fishpond in 1996. The restoration process, which took nearly a decade, involved clearing debris and rebuilding rock walls, transforming the site from a neglected dumpsite into a functioning fishpond once again.
+
+                Culturally, Hale O Lono Fishpond holds significant importance as a symbol of Hawaiian heritage and a site for cultural revival. It serves as a learning center where traditional Hawaiian practices are taught and preserved, offering educational programs in partnership with local schools. The fishpond is also a venue for cultural events, such as the annual lā kuahu ceremony, where harvested fish are used in traditional rituals performed by the Hālau Kekuhi, a hula school associated with the foundation. These activities not only celebrate Hawaiian traditions but also foster a sense of community and stewardship among participants, ensuring that the knowledge and practices associated with fishpond management are passed down to future generations. The restoration and ongoing use of Hale O Lono Fishpond exemplify a broader movement across Hawaii to reconnect with and sustain traditional cultural practices.
+                """,
+            wildlifePlant: """
+                One native plant found at Hale O Lono Fishpond is the hala tree (Pandanus tectorius), which is significant in Hawaiian culture for its versatile uses. The tree produces long, sword-like leaves that are traditionally woven into mats, baskets, and hats, while its fruit can be used as a food source. The hala tree holds cultural importance as it is often associated with the goddess of hula, Laka, and is used in various ceremonial practices. Although not endangered, the hala tree is an integral part of Hawaii's natural and cultural landscape, symbolizing the connection between the land and its people. Efforts to preserve and propagate native plants like the hala are crucial in maintaining Hawaii's ecological and cultural heritage.
+                """,
+            wildlifeAnimal: """
+                A native animal that can be found near Hale O Lono Fishpond is the Hawaiian Stilt, or aeʻo (Himantopus mexicanus knudseni), which is considered endangered. This wading bird is characterized by its long pink legs and distinctive black and white plumage. The Hawaiian Stilt is significant to Native Hawaiians as it is considered a physical representation of the Hawaiian god Kū in his fisherman form. The bird's presence in the fishponds is essential for maintaining the ecological balance, as it feeds on insects and small aquatic animals. Conservation efforts are in place to protect the aeʻo and its habitat, ensuring the survival of this unique species and the continuation of its cultural significance in Hawaii.
+                """,
+            behavior: """
+                It is kapu (not allowed) to enter Hale O Lono Fishpond without permission, so the fishpond is closed to the general public. Generally, if you are invited to Hale O Lono, you must recite an oli (chant) before entering the fishpond. For those who still wish to interact with the loko i'a, there is a community workday at Hale O Lono Fishpond every month (see events page to learn more).
+                """,
+            behaviorCulture: """
+                • Participate Respectfully: If participating in any restoration or cultural activities, do so respectfully and follow the instructions of local leaders or organizers.
+                
+                • Educate Yourself: Take time to learn about the cultural and historical significance of the fishponds to appreciate their importance to Hawaiian heritage.
+                
+                • Respect Ceremonies: If cultural ceremonies are taking place, observe respectfully from a distance unless invited to participate.
+                
+                • Observe Silence: Maintain silence or speak softly to respect the tranquility and sacredness of the area, especially during ceremonies or cultural activities.
+                
+                • Use Respectful Language: Be mindful of your language and conversations, maintaining a tone of respect and reverence for the cultural site.
+                
+                • Limit Technology Use: Minimize the use of technology such as phones and cameras to fully engage with the environment and respect the cultural atmosphere.
+                """,
+            behaviorNature: """
+                • Preserve the Environment: Avoid picking plants, disturbing wildlife, or removing any natural or cultural artifacts to help preserve the site's integrity.
+                
+                • Stay on Paths: Use designated paths to minimize your impact on the environment and avoid disrupting restoration efforts.
+                
+                • Avoid Littering: Ensure that all trash is disposed of properly or taken with you to keep the area clean and pristine.
+                """,
+            behaviorSafety: """
+                • Follow Posted Guidelines: Pay attention to and adhere to any signs or guidelines posted at the site to ensure safety and respect for cultural practices.
+                """,
+            plantCaption: "There are hala trees on the right and top left of the picture.",
+            animalCaption: "We do not currently own a picture of the ae'o, but we are working on it. In the meantime, enjoy this picture of the 'Apapane's habitat at Hale O Lono Fishpond.",
+            plantCaptionLink: "",
+            animalCaptionLink: "",
+            plantCaptionLinkLabel: "",
+            animalCaptionLinkLabel: "",
+            imageNames: [
+                "Hale O Lono Fishpond_9",
+                "Hale O Lono Fishpond_52",
+                "Hale O Lono Fishpond_57",
+                "Hale O Lono Fishpond_36",
+                "Hale O Lono Fishpond_19",
+                "Hale O Lono Fishpond_23",
+                "Hale O Lono Fishpond_27",
+            ],
+            events: [
+                "Hale O Lono Community Workday",
+            ],
+            eventDescription: [
+                "Help restore the loko i'a by repairing the wall and pulling weeds in the water. This is an unique opportunity to learn about the fishpond and connect with the ʻāina. Remember to bring reef shoes, dive gloves, water, and sunscreen to stay safe.",
+            ],
+            eventTime: [
+                "Second Saturday of Every Month from 9:00 a.m. to 12:00 p.m.",
+            ]),
+        Location(
             name: "'Akaka Falls",
             cityName: "Honomu",
             coordinates: CLLocationCoordinate2D(latitude: 19.8541500809594, longitude: -155.1540377854237),
@@ -84,78 +233,6 @@ class LocationsDataService {
             ],
             eventTime: [
                 "Daily from 8:30 a.m. to 5:00 p.m.",
-            ]),
-        Location(
-            name: "Hale O Lono Fishpond",
-            cityName: "Hilo",
-            coordinates: CLLocationCoordinate2D(latitude: 19.73389, longitude: -155.03061),
-            overview: """
-                Hale O Lono Fishpond is a traditional Hawaiian fishpond located on the east side of Hawaiʻi Island, near Hilo. This 3-acre loko iʻa (fishpond) is part of a larger system of ancient aquaculture that was once widespread across the Hawaiian Islands. 
-                
-                The pond is situated in Keaukaha, a region known for its lush, tropical environment due to the abundant rainfall typical of the windward side of the Big Island. The climate here is warm and tropical year-round, with temperatures generally ranging from 75-85°F (23-29°C).
-                
-                The pond has been the focus of extensive restoration efforts led by the Mossman family and the Edith Kanakaʻole Foundation, transforming it from a neglected dumpsite into a vibrant center for cultural and scientific activities. Visitors to Hale O Lono can participate in monthly community workdays, where they help with tasks such as rebuilding rock walls and clearing debris, while learning about traditional Hawaiian practices and the significance of fishponds in local culture.
-                """,
-            history: """
-                Hale O Lono Fishpond, located on the Big Island of Hawaii, has a rich history rooted in ancient Hawaiian aquaculture practices. These fishponds, known as loko iʻa, were integral to Hawaiian society, providing a sustainable food source and playing a significant role in the social and economic structures of the time. Constructed using sophisticated engineering techniques, these fishponds were designed to create brackish water environments ideal for raising fish like ʻamaʻama (mullet) and ʻawa (milkfish). Over time, however, the use of fishponds declined due to various factors, including Western colonization, which introduced new economic models and land use practices that led to the abandonment of traditional fishpond management[2]. In the late 20th century, efforts to restore these cultural sites began, with the Edith Kanakaʻole Foundation taking responsibility for Hale O Lono Fishpond in 1996. The restoration process, which took nearly a decade, involved clearing debris and rebuilding rock walls, transforming the site from a neglected dumpsite into a functioning fishpond once again.
-
-                Culturally, Hale O Lono Fishpond holds significant importance as a symbol of Hawaiian heritage and a site for cultural revival. It serves as a learning center where traditional Hawaiian practices are taught and preserved, offering educational programs in partnership with local schools. The fishpond is also a venue for cultural events, such as the annual lā kuahu ceremony, where harvested fish are used in traditional rituals performed by the Hālau Kekuhi, a hula school associated with the foundation. These activities not only celebrate Hawaiian traditions but also foster a sense of community and stewardship among participants, ensuring that the knowledge and practices associated with fishpond management are passed down to future generations. The restoration and ongoing use of Hale O Lono Fishpond exemplify a broader movement across Hawaii to reconnect with and sustain traditional cultural practices.
-                """,
-            wildlifePlant: """
-                One native plant found at Hale O Lono Fishpond is the hala tree (Pandanus tectorius), which is significant in Hawaiian culture for its versatile uses. The tree produces long, sword-like leaves that are traditionally woven into mats, baskets, and hats, while its fruit can be used as a food source. The hala tree holds cultural importance as it is often associated with the goddess of hula, Laka, and is used in various ceremonial practices. Although not endangered, the hala tree is an integral part of Hawaii's natural and cultural landscape, symbolizing the connection between the land and its people. Efforts to preserve and propagate native plants like the hala are crucial in maintaining Hawaii's ecological and cultural heritage.
-                """,
-            wildlifeAnimal: """
-                A native animal that can be found near Hale O Lono Fishpond is the Hawaiian Stilt, or aeʻo (Himantopus mexicanus knudseni), which is considered endangered. This wading bird is characterized by its long pink legs and distinctive black and white plumage. The Hawaiian Stilt is significant to Native Hawaiians as it is considered a physical representation of the Hawaiian god Kū in his fisherman form. The bird's presence in the fishponds is essential for maintaining the ecological balance, as it feeds on insects and small aquatic animals. Conservation efforts are in place to protect the aeʻo and its habitat, ensuring the survival of this unique species and the continuation of its cultural significance in Hawaii.
-                """,
-            behavior: """
-                It is kapu (not allowed) to enter Hale O Lono Fishpond without permission, so the fishpond is closed to the general public. Generally, if you are invited to Hale O Lono, you must recite an oli (chant) before entering the fishpond. For those who still wish to interact with the loko i'a, there is a community workday at Hale O Lono Fishpond every month (see events page to learn more).
-                """,
-            behaviorCulture: """
-                • Participate Respectfully: If participating in any restoration or cultural activities, do so respectfully and follow the instructions of local leaders or organizers.
-                
-                • Educate Yourself: Take time to learn about the cultural and historical significance of the fishponds to appreciate their importance to Hawaiian heritage.
-                
-                • Respect Ceremonies: If cultural ceremonies are taking place, observe respectfully from a distance unless invited to participate.
-                
-                • Observe Silence: Maintain silence or speak softly to respect the tranquility and sacredness of the area, especially during ceremonies or cultural activities.
-                
-                • Use Respectful Language: Be mindful of your language and conversations, maintaining a tone of respect and reverence for the cultural site.
-                
-                • Limit Technology Use: Minimize the use of technology such as phones and cameras to fully engage with the environment and respect the cultural atmosphere.
-                """,
-            behaviorNature: """
-                • Preserve the Environment: Avoid picking plants, disturbing wildlife, or removing any natural or cultural artifacts to help preserve the site's integrity.
-                
-                • Stay on Paths: Use designated paths to minimize your impact on the environment and avoid disrupting restoration efforts.
-                
-                • Avoid Littering: Ensure that all trash is disposed of properly or taken with you to keep the area clean and pristine.
-                """,
-            behaviorSafety: """
-                • Follow Posted Guidelines: Pay attention to and adhere to any signs or guidelines posted at the site to ensure safety and respect for cultural practices.
-                """,
-            plantCaption: "There are hala trees on the right and top left of the picture.",
-            animalCaption: "We do not currently own a picture of the ae'o, but we are working on it. In the meantime, enjoy this picture of the 'Apapane's habitat at Hale O Lono Fishpond.",
-            plantCaptionLink: "",
-            animalCaptionLink: "",
-            plantCaptionLinkLabel: "",
-            animalCaptionLinkLabel: "",
-            imageNames: [
-                "Hale O Lono Fishpond_9",
-                "Hale O Lono Fishpond_52",
-                "Hale O Lono Fishpond_57",
-                "Hale O Lono Fishpond_36",
-                "Hale O Lono Fishpond_19",
-                "Hale O Lono Fishpond_23",
-                "Hale O Lono Fishpond_27",
-            ],
-            events: [
-                "Hale O Lono Community Workday",
-            ],
-            eventDescription: [
-                "Help restore the loko i'a by repairing the wall and pulling weeds in the water. This is an unique opportunity to learn about the fishpond and connect with the ʻāina. Remember to bring reef shoes, dive gloves, water, and sunscreen to stay safe.",
-            ],
-            eventTime: [
-                "Second Saturday of Every Month from 9:00 a.m. to 12:00 p.m.",
             ]),
         Location(
             name: "Waipio Valley",
@@ -894,83 +971,6 @@ class LocationsDataService {
             eventTime: [
                 "Last Weekend of June Every Year",
                 "These events are ongoing, with specific dates and times available by contacting the Visitor's Center.",
-            ]),
-        Location(
-            name: "Pu'ukohola Heiau",
-            cityName: "Kawaihae",
-            coordinates: CLLocationCoordinate2D(latitude: 20.025705913597783, longitude: -155.82158401652694),
-            overview: """
-                Pu'ukohola Heiau National Historic Site is located on the northwestern coast of the Big Island of Hawaii, near the town of Kawaihae. This well-preserved ancient Hawaiian temple sits atop a hill overlooking the Pacific Ocean, about 3 miles south of Kawaihae Harbor. Built between 1790-1791 by King Kamehameha I, Pu'ukohola Heiau is a massive stone structure measuring 224 by 100 feet with walls up to 20 feet high. The heiau dominates the landscape with its terraced platform constructed of water-worn lava rocks. 
-                
-                Visitors to the site can explore the grounds via a self-guided walking tour, which includes informative exhibits about the heiau's history and cultural significance. The park also offers opportunities for wildlife viewing, including humpback whales during winter months, and hosts cultural demonstrations and events throughout the year. While visitors cannot enter the heiau itself, they can view it from designated areas and learn about its crucial role in the unification of the Hawaiian Islands under Kamehameha I.
-                """,
-            history: """
-                Pu'ukohola Heiau, meaning "Temple on the Hill of the Whale," holds a pivotal place in Hawaiian history. Built between 1790 and 1791 by King Kamehameha I, this massive stone temple was constructed to fulfill a prophecy that would allow Kamehameha to unify all the Hawaiian islands under his rule. The heiau's construction was a monumental undertaking, with thousands of men forming a human chain nearly 25 miles long to transport water-worn lava rocks from Pololu Valley. The completion of Pu'ukohola Heiau marked a significant turning point in Hawaiian history, as it set the stage for Kamehameha's conquest and unification of the islands. By 1810, Kamehameha had become the first king of a unified Hawaii, fulfilling the prophecy associated with the heiau.
-
-                Today, Pu'ukohola Heiau continues to hold immense cultural significance for Native Hawaiians and serves as a powerful symbol of unification and lasting peace. The site is now part of the Pu'ukohola Heiau National Historic Site, preserving this important piece of Hawaiian heritage. Cultural events still take place at the site, most notably the annual Ho'oku'ikahi i Pu'ukohola Establishment Day Hawaiian Cultural Festival, which celebrates the park's anniversary. This festival, typically held in August, features traditional Hawaiian ceremonies, arts and crafts workshops, and cultural demonstrations. The event not only commemorates the site's history but also serves as a platform for cultural preservation, education, and the continuation of Hawaiian traditions. Through these ongoing activities, Pu'ukohola Heiau remains a living connection to Hawaii's past and a center for the perpetuation of Hawaiian culture.
-                """,
-            wildlifePlant: """
-                One native plant found at Pu'ukohola Heiau National Historic Site is the pololei (Ophioglossum polyphyllum), a tiny seasonal fern described as the rarest native plant in the park. This small, inconspicuous fern is part of the adder's-tongue family and is known for its unique reproductive structure. While not explicitly stated as endangered in the search results, its rarity in the park suggests it may face conservation challenges. The pololei, like many native Hawaiian plants, likely held cultural significance for Native Hawaiians, potentially being used in traditional medicine or rituals. Its presence in the park, despite the arid conditions, demonstrates the resilience and adaptability of native Hawaiian flora and highlights the importance of preserving these unique ecosystems.
-                """,
-            wildlifeAnimal: """
-                A notable native animal found at Pu'ukohola Heiau is the blacktip reef shark (Carcharhinus melanopterus), which can often be seen navigating the shallows of Pelekane Bay near the park. While not endangered, these sharks are an important part of the local marine ecosystem. In Hawaiian culture, sharks hold significant spiritual importance and are often considered 'aumakua, or family guardian spirits. According to local lore, the submerged ruins of Hale o Kapuni, a temple believed to be dedicated to shark gods, lie just offshore from Pu'ukohola Heiau. Hawaiian tradition tells of named sharks that were believed to protect the families who fed them. One such legend mentions Uukanipo, two great sharks who were twin brothers. It was said that when the king wished to see them, their keeper would hang two bowls of 'awa (kava) from a forked stick to attract them. The continued presence of blacktip reef sharks in the area serves as a living connection to these ancient beliefs and traditions.
-                """,
-            behavior: """
-                Remember, it is kapu (strictly forbidden) to enter or climb onto the heiau since it is a highly sacred site.
-                """,
-            behaviorCulture: """
-                • Stay on designated trails and paths to protect the archaeological site and natural resources.
-
-                • Do not climb on, touch, or remove any rocks or structures on the heiau.
-                
-                • Do not enter areas marked as restricted or off-limits.
-                
-                • Ask permission before taking photographs of any ongoing cultural practices or ceremonies.
-                
-                • If participating in or observing cultural events, follow the instructions of cultural practitioners and park staff.
-                """,
-            behaviorNature: """
-                • Do not remove, disturb, or damage any artifacts, rocks, plants, or wildlife.
-                """,
-            behaviorSafety: """
-                • Wear appropriate clothing and footwear for walking on uneven terrain.
-                
-                • Bring and drink plenty of water, as the area can be hot and dry.
-                
-                • Follow all posted signs and guidelines provided by the National Park Service.
-                """,
-            plantCaption: "The naupaka's unique half blossom",
-            animalCaption: "A sleeping Hawaiian monk seal",
-            plantCaptionLink: "https://www.flickr.com/photos/47108884@N07/14678080450",
-            animalCaptionLink: "https://www.flickr.com/photos/gaiaguide/14059231841",
-            plantCaptionLinkLabel: "Ton Rulkens",
-            animalCaptionLinkLabel: "Geoff Shuetrim",
-            imageNames: [
-                "Pu'ukohola_2",
-                "Pu'ukohola_6",
-                "Pu'ukohola_8",
-                "Pu'ukohola_22",
-                "Pu'ukohola_54",
-                "Pu'ukohola_53",
-                "Pu'ukohola_36",
-                "Pu'ukohola_38",
-                "Pu'ukohola_49",
-                "Pu'ukohola_52",
-                "Pu'ukohola_25",
-                "Pu'ukohola_12",
-            ],
-            events: [
-                "Ho`oku`ikahi Establishment Day Hawaiian Cultural Festival",
-                "Self-guided Tour",
-            ],
-            eventDescription: [
-                "This annual event celebrates the park's anniversary and showcases traditional Hawaiian culture through various activities, demonstrations, and performances. The festival features workshops on traditional Hawaiian arts and crafts, cultural ceremonies, and educational opportunities for visitors to learn about the site's history and significance.",
-                "Visit the vistors center to learn about Pu'ukoholā Heiau and King Kamehameha I. From lifting spears to watching immersive vidoes, there are many chances to experience Hawaiian history. Then, take a short hike to see the heiau up close.",
-                "",
-            ],
-            eventTime: [
-                "August of Each Year",
-                "Daily From 7:30 a.m. to 5:00 p.m.",
             ]),
         Location(
             name: "Volcanoes National Park",

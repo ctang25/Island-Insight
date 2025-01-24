@@ -12,7 +12,7 @@ struct LocationsView: View {
     
     @EnvironmentObject private var vm: LocationsViewModel
     @Environment(LocationManager.self) var locationManager
-    @ObservedObject var changeSheet = locationSheet()
+    @AppStorage("isWelcomeSheetShowing")var isWelcomeSheetShowing = true
     @Namespace private var mapScope
     let locations: [Location]
     let maxWidthForIpad: CGFloat = 700
@@ -37,11 +37,11 @@ struct LocationsView: View {
             }
         }
         .mapScope(mapScope)
-        .fullScreenCover(isPresented: $changeSheet.isWelcomeSheetShowing) {
+        .fullScreenCover(isPresented: $isWelcomeSheetShowing) {
             VStack{
-                WelcomeView()
+                WelcomeView(isWelcomeSheetShowing: .constant(true))
                 Button {
-                    changeSheet.isWelcomeSheetShowing = false
+                    isWelcomeSheetShowing = false
                 } label: {
                     Text("Let's Go!")
                         .font(.title3)
@@ -64,6 +64,7 @@ struct LocationsView: View {
 }
 
 struct WelcomeView: View {
+    @Binding var isWelcomeSheetShowing: Bool
     var body: some View {
         text
     }

@@ -15,12 +15,12 @@ struct ChallengeApp: App {
     @State private var locationManager = LocationManager()
     var body: some Scene {
         WindowGroup {
-            if locationManager.isAuthorized {
+            //if locationManager.isAuthorized {
                 LocationsView(locations: LocationsDataService.locations, location: LocationsDataService.locations.first!)
                     .environmentObject(vm)
-            } else {
-                LocationDeniedView()
-            }
+            //} else {
+                //LocationDeniedView()
+            //}
         }
         .environment(locationManager)
     }

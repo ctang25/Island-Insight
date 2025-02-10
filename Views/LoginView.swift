@@ -10,6 +10,8 @@ import SwiftUI
 struct LoginView: View {
     @State private var email = ""
     @State private var password = ""
+    @EnvironmentObject var viewModel: AuthViewModel
+    
     var body: some View {
         NavigationStack {
             VStack {
@@ -33,7 +35,9 @@ struct LoginView: View {
                 
                 // sign in button
                 Button {
-                    print("Log user in.")
+                    Task {
+                        try await viewModel.signIn(withEmail: email, password: password)
+                    }
                 }
                 label: {
                     HStack {
@@ -45,6 +49,8 @@ struct LoginView: View {
                     .frame(width: UIScreen.main.bounds.width - 32, height: 48)
                 }
                 .background(Color(.systemBlue))
+                .disabled(!formIsValid)
+                .opacity(formIsValid ? 1.0 : 0.5)
                 .cornerRadius(10)
                 .padding(.top, 24)
                 
@@ -65,6 +71,17 @@ struct LoginView: View {
                 }
             }
         }
+    }
+}
+
+// MARK: - AuthenticationFormProtocol
+
+extension LoginView: AuthenticationFormProtocol {
+    var formIsValid: Bool {
+        return !email.isEmpty
+        && email.contains("@")
+        && !password.isEmpty
+        && password.count > 5
     }
 }
 

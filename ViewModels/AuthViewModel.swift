@@ -33,7 +33,7 @@ class AuthViewModel: ObservableObject {
             self.userSession = result.user
             await fetchUser()
         } catch {
-            print("DEBUG: Failed ot log in with error \(error.localizedDescription)")
+            print("DEBUG: Failed to log in with error \(error.localizedDescription)")
         }
     }
     

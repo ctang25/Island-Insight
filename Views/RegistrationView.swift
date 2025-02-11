@@ -36,12 +36,12 @@ struct RegistrationView: View {
                     
                     if !password.isEmpty && !confirmPassword.isEmpty {
                         if password == confirmPassword {
-                            Image(systemName: "checkmark.circe.fill")
+                            Image(systemName: "checkmark.circle.fill")
                                 .imageScale(.large)
                                 .fontWeight(.bold)
                                 .foregroundStyle(Color(.systemGreen))
                         } else {
-                            Image(systemName: "xmark.circe.fill")
+                            Image(systemName: "xmark.circle.fill")
                                 .imageScale(.large)
                                 .fontWeight(.bold)
                                 .foregroundStyle(Color(.systemRed))
